@@ -1,0 +1,127 @@
+Category;Subcategory;Technologies name;Technologies param;c_inv;c_maint;gwp_constr;lifetime;c_p;fmin_perc;fmax_perc;f_min;f_max;final2useful;Comment
+;;Name (simplified);Name (in model and documents);"[Meuro/GW]
+[Meuro/GWh] 
+[Meuro/(Mkmpass/h)] 
+[Meuro/(Mtonkm/h)]";"[Meuro/GW/y]
+[Meuro/GWh/y] 
+[Meuro/(Mkmpass/h)/y] 
+[Meuro/(Mtonkm/h)/y]";"[ktonCO2_eq/GW]
+[ktonCO2_eq/GWh]
+[ktonCO2_eq/(Mkmpass/h)]
+[ktonCO2_eq/(Mtonkm/h)]";[years];[];[];[];[GW];[GW];1=Yes/0=No;
+0;0;0;FRIDGE;4989.324;213.6778;1736.79;20;1;0;1;0;1.00E+15;1.00E+00;
+0;0;0;ELEC_REFRIG_CYCLE;27790.62;1190.189;9673.95;20;1;0;1;0;1.00E+15;1.00E+00;
+0;0;0;TH_REFRIG_CYCLE;17823.52;533.533;22396.66;20;1;0;1;0;1.00E+15;1.00E+00;
+0;0;0;IND_ELEC_COOLING;6494.542;52.63;1842.05;20;0.95;0;1;0;1.00E+15;1.00E+00;
+Electricity;Electricity;Nuclear; NUCLEAR ;4845.73;102.930986;707.88;60;0.84051;0;1;5.925;5.93;0.00E+00;
+Electricity;Electricity;Combined cycle gas turbine; CCGT ;844.73;21.39431403;183.79;25;0.951923077;0;1;3.925;3.93;0.00E+00;
+Electricity;Electricity;Amonia combined cycle gas turbine; CCGT_AMMONIA ;844.73;21.39431403;183.79;25;0.58;0;1;0;0;0.00E+00;
+Electricity;Electricity;Ultra-supercritical coal power plant; COAL_US ;2639.81;30.82101643;331.6;35;0.85932;0;1;0.47;0.47;0.00E+00;
+Electricity;Electricity;Intagrated gasification combined cycle with coal; COAL_IGCC ;3404.57;50.78860431;331.6;35;0.84744;0;1;0;0;0.00E+00;
+Electricity;Electricity;Photovoltaic; PV ;1711.48;19.54518072;2081.43;25;1;0;1;3.845;3.85;0.00E+00;
+Electricity;Electricity;Wind onshore; WIND_ONSHORE ;1356.08;15.77223529;622.85;30;1;0;1;1.249;1.25;0.00E+00;
+Electricity;Electricity;Wind offshore; WIND_OFFSHORE ;7653.28;53.24769231;622.85;30;1;0;1;0.71;0.71;0.00E+00;
+Electricity;Electricity;Hydro river; HYDRO_RIVER ;5044.92;50.4447982;1262.82;40;1;0;1;0.114;0.12;0.00E+00;
+Electricity;Electricity;Geothermal power plant; GEOTHERMAL ;10721.45;199.1808;24929.09;30;0.95;0;1;0;0;0.00E+00;
+Heat;Heat high temperature;Cogeneration gas (industry); IND_COGEN_GAS ;2435.980443;156.5819983;1632.8928;25;0.8415;0.086;0.086;0.516271099;0.83;1.00E+00;
+Heat;Heat high temperature;Cogeneration wood (industry); IND_COGEN_WOOD ;1869.827407;68.45910622;263.5564732;25;0.8415;0;0;0;0;1.00E+00;
+Heat;Heat high temperature;Cogeneration waste (industry); IND_COGEN_WASTE ;5204.048738;191.8485402;1032.705223;25;0.8415;0.056;0.056;0.335607579;0.54;1.00E+00;
+Heat;Heat high temperature;Boiler gas (industry); IND_BOILER_GAS ;112.6567227;2.257060635;19.63960412;17;0.9405;0;1;1.924568324;3.07;1.00E+00;
+Heat;Heat high temperature;Boiler wood (industry); IND_BOILER_WOOD ;220.3397794;4.406642191;46.02235155;17;0.891;0;0;0;0;1.00E+00;
+Heat;Heat high temperature;Boiler oil (industry); IND_BOILER_OIL ;104.9411639;2.257060635;19.63960412;17;0.9405;0.2;0.2;1.074571558;1.72;1.00E+00;
+Heat;Heat high temperature;Boiler coal (industry); IND_BOILER_COAL ;220.3397794;4.406642191;76.80488041;17;0.891;0.3;0.3;1.702502748;2.72;1.00E+00;
+Heat;Heat high temperature;Boiler waste (industry); IND_BOILER_WASTE ;220.3397794;4.406642191;46.02235155;17;0.891;0;0;0;0;1.00E+00;
+Heat;Heat high temperature;Electrical resistors (industry); IND_DIRECT_ELEC ;618.0895866;2.803910203;2.343361856;15;0.9405;0;0;0;0;1.00E+00;
+Heat;Heat low temperature centralised;Heat pump (DHN); DHN_HP_ELEC ;3853.308132;130.6619074;1604.726426;25;0.9405;0.0436;0.0437;0.004574724;0.04;1.00E+00;
+Heat;Heat low temperature centralised;Cogeneration gas (DHN); DHN_COGEN_GAS ;12499.40409;365.4564683;4506.711529;25;0.8415;0.59413;0.59413;0.037687009;0.35;1.00E+00;
+Heat;Heat low temperature centralised;Cogeneration wood (DHN); DHN_COGEN_WOOD ;10768.71596;394.2699025;1517.875279;25;0.8415;0.06603;0.06603;0.006208554;0.06;1.00E+00;
+Heat;Heat low temperature centralised;Cogeneration waste (DHN); DHN_COGEN_WASTE ;29971.17406;1104.894723;5947.559206;25;0.8415;0.12408;0.1408;0.006753164;0.06;1.00E+00;
+Heat;Heat low temperature centralised;Cogeneration wet biomass (DHN); DHN_COGEN_WET_BIOMASS ;13694.57135;1114.527385;9401.223529;25;0.7425;0;0;0;0;1.00E+00;
+Heat;Heat low temperature centralised;Cogeneration hydrolysis (DHN); DHN_COGEN_BIO_HYDROLYSIS ;45204.5531;2208.857567;5947.375588;15;0.8415;0;0;0;0;1.00E+00;
+Heat;Heat low temperature centralised;Boiler gas (DHN); DHN_BOILER_GAS ;648.8129559;12.9988708;113.1084706;17;0.9405;0.13883;0.13883;0.033547974;0.31;1.00E+00;
+Heat;Heat low temperature centralised;Boiler wood (DHN); DHN_BOILER_WOOD ;1268.981559;25.37874774;265.0520735;17;0.891;0;0;0;0;1.00E+00;
+Heat;Heat low temperature centralised;Boiler oil (DHN); DHN_BOILER_OIL ;604.3774853;12.9988708;113.1084706;17;0.9405;0.00651;0.00651;0.008060227;0.08;1.00E+00;
+Heat;Heat low temperature centralised;Geothermal (DHN); DHN_DEEP_GEO ;14799.0315;554.48209;7425.130412;30;0.8415;0.01;0.01;0.000326766;0.01;1.00E+00;
+Heat;Heat low temperature centralised;Solar thermal (DHN); DHN_SOLAR ;3613.687103;4.26242865;2030.994794;30;1;0;0;0;0;1.00E+00;
+Heat;Heat low temperature decentralised;Electrical heat pump (decentralised); DEC_HP_ELEC ;5530.573757;230.5939266;1522.405814;18;1;0.011;0.012;0.063793904;0.59;1.00E+00;
+Heat;Heat low temperature decentralised;Thermal heat pump gas (decentralised); DEC_THHP_GAS ;3548.279329;103.7057206;3526.305129;20;1;0;0;0;0;1.00E+00;
+Heat;Heat low temperature decentralised;Cogeneration gas (decentralised); DEC_COGEN_GAS ;14108.729;906.8927405;9457.400229;20;1;0.007;0.007;0.040507504;0.38;1.00E+00;
+Heat;Heat low temperature decentralised;Cogeneration oil (decentralised); DEC_COGEN_OIL ;13081.94296;802.6321696;9457.400229;20;1;0;0;0;0;1.00E+00;
+Heat;Heat low temperature decentralised;Advanced cogeneration (Fuel cell) gas (decentralised); DEC_ADVCOGEN_GAS ;123948.4296;2309.939517;20251.8105;20;1;0;0;0;0;1.00E+00;
+Heat;Heat low temperature decentralised;Advanced cogeneration (Fuel cell) gas (decentralised);DEC_ADVCOGEN_H2;123948.4296;2309.939517;20251.8105;20;1;0;0;0;0;1.00E+00;
+Heat;Heat low temperature decentralised;Bioler gas (decentralised); DEC_BOILER_GAS ;1756.458743;52.7048386;194.7209571;17;1;0;1;2.314018258;21.4;1.00E+00;
+Heat;Heat low temperature decentralised;Boiler wood (decentralised); DEC_BOILER_WOOD ;5123.589414;179.279451;194.7209571;17;1;0.1;0.3;0.581293517;5.37;1.00E+00;
+Heat;Heat low temperature decentralised;Boiler oil (decentralised); DEC_BOILER_OIL ;1577.525971;94.61971028;194.7209571;17;1;0.484;0.484;2.814080149;26;1.00E+00;
+Heat;Heat low temperature decentralised;Solar thermal (decentralised); DEC_SOLAR ;7218.894014;80.09475472;2042.492657;20;1;0.002;0.002;0.055345815;0.51;1.00E+00;
+Heat;Heat low temperature decentralised;Direct electrical heaters (decentralised); DEC_DIRECT_ELEC ;402.6449;1.760039254;13.5723;15;1;0;0;0;0;1.00E+00;
+Mobility;Passenger public;Tram or metro; TRAMWAY_TROLLEY ;625;12.5;0;30;0.342465753;0.045;0.045;0.47;0.47;1.00E+00;
+Mobility;Passenger public;Bus diesel; BUS_COACH_DIESEL ;567.54;30.55555556;0;15;0.296803653;0.47;1;5.695;5.7;1.00E+00;
+Mobility;Passenger public;Bus diesel hybrid; BUS_COACH_HYDIESEL ;838.23;33.33333333;0;15;0.296803653;0;0;0;0;1.00E+00;
+Mobility;Passenger public;Bus gas; BUS_COACH_CNG_STOICH ;577.99;30.55555556;0;15;0.296803653;0.1;0.1;1.21;1.21;1.00E+00;
+Mobility;Passenger public;Bus fuel cell (H2);BUS_COACH_FC_HYBRIDH2;1185.73;31.25;0;15;0.296803653;0;0;0;0;1.00E+00;
+Mobility;Passenger public;Train (passenger); TRAIN_PUB ;1506.02;54.35274934;0;40;0.275072894;0.385;0.385;5.033;5.04;1.00E+00;
+Mobility;Passenger private;Car gasoline; CAR_GASOLINE ;390.32;24;0;10;0.051369863;0.3534;0.3535;98.982;99;1.00E+00;
+Mobility;Passenger private;Car diesel; CAR_DIESEL ;403.48;24;0;10;0.051369863;0;1;178.304;178.4;1.00E+00;
+Mobility;Passenger private;Car gas; CAR_NG ;406.1;24;0;10;0.051369863;0.01;0.01;2.799;2.8;1.00E+00;
+Mobility;Passenger private;Car methanol; CAR_METHANOL ;390.32;24;0;10;0.051369863;0;1;0;0;1.00E+00;
+Mobility;Passenger private;Car hybrid (gasoline); CAR_HEV ;431.94;34;0;10;0.051369863;0;0;0;0;1.00E+00;
+Mobility;Passenger private;Car plug-in hybrid; CAR_PHEV ;491.88;34;0;10;0.051369863;0;0;0;0;1.00E+00;
+Mobility;Passenger private;Car electric; CAR_BEV ;873.02;10;0;10;0.051369863;0;0;0;0;1.00E+00;
+Mobility;Passenger private;Car fuel cell (H2); CAR_FUEL_CELL ;1091.27;10;0;10;0.051369863;0;0;0;0;1.00E+00;
+Mobility;Freight;Train (freight); TRAIN_FREIGHT ;104.42;2.088311688;0;40;0.342465753;0;1;0;1.00E+15;1.00E+00;
+Mobility;Freight;Boat diesel; BOAT_FREIGHT_DIESEL ;70.94;3.819444444;0;40;0.114155251;0;1;0;1.00E+15;1.00E+00;
+Mobility;Freight;Boat gas; BOAT_FREIGHT_NG ;72.25;3.819444444;0;40;0.114155251;0;1;0;0;1.00E+00;
+Mobility;Freight;Boat methanol; BOAT_FREIGHT_METHANOL ;70.94;3.819444444;0;40;0.114155251;0;1;0;0;1.00E+00;
+Mobility;Freight;Trucks diesel; TRUCK_DIESEL ;344.65;18.55555556;0;15;0.092592593;0;1;0;56.9;1.00E+00;
+Mobility;Freight;Truck methanol; TRUCK_METHANOL ;344.65;18.55555556;0;15;0.092592593;0;1;0;0;1.00E+00;
+Mobility;Freight;Truck fuel cell (hydrogen); TRUCK_FUEL_CELL ;457.85;12.06666667;0;15;0.092592593;0;1;0;0;1.00E+00;
+Mobility;Freight;Truck electric; TRUCK_ELEC ;981.55;23.13333333;0;15;0.092592593;0;0;0;0;1.00E+00;
+Mobility;Freight;Truck gas; TRUCK_NG ;350.99;18.55555556;0;15;0.092592593;0.053;0.053;3.183;3.19;1.00E+00;
+Infrastructure;Infrastructure;Efficiency mesures in energy system; EFFICIENCY ;5600;0;0;1;1;0;1;0;100;0.00E+00;
+Infrastructure;Infrastructure;Distric heating network; DHN ;7582.307118;0;0;60;1;0;1;0;100;0.00E+00;
+Infrastructure;Infrastructure;Electrical grid cost; GRID  ;74919.06;0;0;80;1;0;1;0;100;0.00E+00;
+Synthetic fuels;Synthetic fuels;Electrolysers;H2_ELECTROLYSIS;10177.62438;27988467.04;0;15;0.891;0;1;0;0;0.00E+00;H2
+Synthetic fuels;Synthetic fuels;Steam methane reforming; SMR ;835.2470999;77.07707831;0;25;0.8514;0;1;1.459083127;1.49;0.00E+00;H2
+Synthetic fuels;Synthetic fuels;Biomass to hydrogen;H2_BIOMASS;6168.586893;434.5701526;0;25;0.8514;0;1;0;0;0.00E+00;H2
+Synthetic fuels;Synthetic fuels;Wood gasification; GASIFICATION_SNG ;6166.057692;434.6764347;0;25;0.8415;0;1;0;0;0.00E+00;SNG
+Synthetic fuels;Synthetic fuels;Hydrogen methanation; SYN_METHANATION ;402.6442308;102.8770243;0;40;1;0;1;0;0;0.00E+00;SNG
+Synthetic fuels;Synthetic fuels;Biomass methanation; BIOMETHANATION ;1142.163462;15.82167832;0;20;0.8415;0;1;0.36;0.37336;0.00E+00;SNG
+Synthetic fuels;Synthetic fuels;Biomass hydrolysis; BIO_HYDROLYSIS ;1843.951923;125.7217359;0;15;0.8415;0;1;0;0;0.00E+00;SNG
+Synthetic fuels;Synthetic fuels;Wood pyrolysis to gasoline and diesel; PYROLYSIS_TO_LFO ;3043.509434;138.3327628;0;25;0.8415;0;1;0;0;0.00E+00;OIL
+Synthetic fuels;Synthetic fuels;Wood pyrolysis to LFO; PYROLYSIS_TO_FUELS ;3090.566038;86.03773585;0;25;0.8415;0;1;0;0;0.00E+00;
+Synthetic fuels;Synthetic fuels;Carbon capture atmospheric; ATM_CCS ;5743;142.56;0;40;1;0;1;0;0;0.00E+00;CO2
+Synthetic fuels;Synthetic fuels;Carbon capture from industry; INDUSTRY_CCS ;2871.5;71.28;0;40;1;0;1;0;0;0.00E+00;CO2
+Synthetic fuels;Synthetic fuels;Hydrogen methanolation; SYN_METHANOLATION ;2936.306122;83.3259882;0;20;0.9405;0;1;0;0;0.00E+00;METHANOL
+Synthetic fuels;Synthetic fuels;Methane to methanol; METHANE_TO_METHANOL ;1675.755102;73.27463532;0;25;0.8415;0;1;0;0;0.00E+00;METHANOL
+Synthetic fuels;Synthetic fuels;Biomass methanolation; BIOMASS_TO_METHANOL ;6171.428571;94.28571429;0;20;0.99;0;1;0;0;0.00E+00;METHANOL
+Synthetic fuels;Synthetic fuels;Haber bosch (H2 to amonia); HABER_BOSCH ;850.2916667;16.62429284;0;20;0.99;0;1;1.13;1.356;0.00E+00;AMMONIA
+Synthetic fuels;Synthetic fuels;Amonia to H2;AMMONIA_TO_H2;835.2470999;77.07707831;0;25;0.8514;0;1;0;0;0.00E+00;AMMONIA
+Synthetic fuels;Synthetic fuels;Oil to HVC; OIL_TO_HVC ;475.84;2.529783694;0;15;0.99;0;1;4.587;4.63;0.00E+00;HVC
+Synthetic fuels;Synthetic fuels;Gas to HVC; GAS_TO_HVC ;960.83;24.02087245;0;25;0.99;0;1;0;0;0.00E+00;HVC
+Synthetic fuels;Synthetic fuels;Biomass to HVC; BIOMASS_TO_HVC ;4183.2;124.8;0;20;0.99;0;1;0;0;0.00E+00;HVC
+Synthetic fuels;Synthetic fuels;Methanol to HVC; METHANOL_TO_HVC ;839.89;75.58993677;0;20;0.99;0;1;0;0;0.00E+00;HVC
+Storage;Electricity storage;Batteries; BATT_LI ;821.58;1.270180132;61.3;15;1;0;1;0;0;0.00E+00;
+Storage;Electricity storage;Batteries of electric cars; BEV_BATT ;0;0;0;1;1;0;1;0;0;0.00E+00;
+Storage;Electricity storage;Batteries of plug-in hybrid cars; PHEV_BATT ;0;0;0;1;1;0;1;0;0;0.00E+00;
+Storage;Electricity storage;Pumped hydro storage; PHS ;58.8;0;8.33;50;1;0;1;5.9;5.9;0.00E+00;
+Storage;Thermal storage;Decentralised direct elec; TS_DEC_DIRECT_ELEC  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised electrical heat pumps; TS_DEC_HP_ELEC  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised thermal heat pumps gas; TS_DEC_THHP_GAS  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised cogeneration gas; TS_DEC_COGEN_GAS  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised cogenration oil; TS_DEC_COGEN_OIL  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised fuel cell cogeneration gas; TS_DEC_ADVCOGEN_GAS  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised fuel cell cogenration H2;TS_DEC_ADVCOGEN_H2;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised boiler gas; TS_DEC_BOILER_GAS  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised boiler wood; TS_DEC_BOILER_WOOD  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Decentralised boiler oil; TS_DEC_BOILER_OIL  ;174.1613382;1.219245937;0;20;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Centralised daily; TS_DHN_DAILY ;27.54264706;0.078955588;0;40;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Centralised seasonal; TS_DHN_SEASONAL ;5.416720588;0.029582841;0;25;1;0;1;0;0;0.00E+00;
+Storage;Thermal storage;Thermal storage industries; TS_HIGH_TEMP ;44.68328763;0.478237113;0;25;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Gas storage; GAS_STORAGE ;0.048076923;0.001258812;0;50;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Hydrogen storage;H2_STORAGE;6.299949491;0.396927351;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Diesel storage; DIESEL_STORAGE ;0.009433962;0.000374528;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Gasoline storage; GASOLINE_STORAGE ;0.009433962;0.000374528;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;LFO storage; LFO_STORAGE ;0.009433962;0.000374528;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Ammonia storage; AMMONIA_STORAGE ;0.008333333;0.000330833;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;Methanol storage; METHANOL_STORAGE ;0.010204082;0.000405102;0;20;1;0;1;0;0;0.00E+00;
+Storage;Other storage;CO2 storage;CO2_STORAGE;49.5;0.495;0;30;1;0;1;0;0;0.00E+00;

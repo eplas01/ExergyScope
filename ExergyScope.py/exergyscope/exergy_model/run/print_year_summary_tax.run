@@ -1,0 +1,18 @@
+## Saving year summary to output file
+
+
+print "--------------SAVING EXERGY -----------";
+printf "%s;%.6f\n", "exergy_cost", exergy_cost>> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", "NR_cost", NR_cost>> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", "Carbon_cost", carbon_cost>> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", "TotalCost", TotalCost>> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", 'Tax Contribution', Exergy_Tax_NonRenewable * NR_cost + Exergy_Destruction * exergy_cost + TotalGWP*carbon_cost >> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", "GWP_op", sum {i in RESOURCES} GWP_op [i]>> ("exergy_analysis_tax_renewable.txt");
+## Print ExergyAnalysys to txt file.
+#printf "%s;%.6f\n", 'Exergy Mobility',
+#sum {i in TECHNO_mobil, l in LAYERS diff {'MOB_PUBLIC', 'MOB_PRIVATE','MOB_FREIGHT_RAIL','MOB_FREIGHT_ROAD','MOB_FREIGHT_BOAT'}, t in PERIODS, h in HOUR_OF_PERIOD[t], td in TYPICAL_DAY_OF_PERIOD[t]}
+#     (-layers_in_out[i, l] * F_t[i, h, td] * (final2usefulTransportICE))> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", 'Exergy Destruction', Exergy_Destruction >> ("exergy_analysis_tax_renewable.txt");#+exergy_destruction_final2useful
+printf "%s;%.6f\n", 'Exergy Input', Exergy_Input >> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", 'Exergy Output', Exergy_Output >> ("exergy_analysis_tax_renewable.txt");
+printf "%s;%.6f\n", 'Exergy Efficiency', Exergy_Output/Exergy_Input >>("exergy_analysis_tax_renewable.txt");
